@@ -1,20 +1,23 @@
 %  LaTeX support: latex@mdpi.com 
 %  For support, please attach all files needed for compiling as well as the log file, and specify your operating system, LaTeX version, and LaTeX editor.
 
-\newcommand{\qsdpapertitle}{Quantum Theory as a Pacing-Limited Regime: Collapse, Coherence, and Causality in the Conserved Substrate}
+\newcommand{\qsdgst}{General Substrate Theory}
+\newcommand{\qsd}{Quantum Substrate Dynamics}
+\newcommand{\qsdgsta}{GST}
+\newcommand{\qsda}{QSD}
+
+\newcommand{\qsdpapertitle}{Quantum Theory as a Pacing-Limited Regime: Collapse, Coherence, and Causality in General Substrate Theory}
 \newcommand{\qsdauthorname}{Michael Bush}
 \newcommand{\qsdauthorinitials}{M.B.}
 \newcommand{\qsdauthoremail}{mbush@haddentechnologies.com}
 \newcommand{\qsdorcid}{0009-0003-9747-9109}
 \newcommand{\qsdcorp}{Hadden Technologies Corporation}
-\newcommand{\qsdgptname}{OpenAI’s ChatGPT}
-\newcommand{\qsdgptver}{GPT-4o}
-\newcommand{\qsdgptyear}{2025}
-\newcommand{\qsdkeywords}{Quantum mechanics, Quantum field theory, Collapse, Measurement, Causality Interval, Collapse Boundary, Quantum Emission Opportunity, Time symmetry, Entanglement, Coherence, Substrate dynamics, Structural re-lock, Serialized emission, Frame-dependent time, Quantum Substrate Dynamics}
+\newcommand{\qsdkeywords}{Quantum mechanics, Quantum field theory, Collapse, Causality Interval, Collapse Boundary, Quantum Emission Opportunity, Time symmetry, Entanglement, Quantum Substrate Dynamics}
 \newcommand{\qsdmethodstatement}
 {This work was developed from first principles, assuming a conserved, Lorentz-invariant coherence substrate. All derivations follow from a single axiom: that physical reality emerges from causal reconfiguration of phase-supported structure. Quantum behavior is modeled as coherence evolution within finite Causality Intervals (CI), ending at Collapse Boundaries (CB), with emission permitted at Quantum Emission Opportunities (QEO). No particles, geometry, or external forces were assumed. The method emphasizes causal closure, time-asymmetric observation, and structural compatibility with known quantum and relativistic limits.}
 \newcommand{\qsdabstract}
-{Quantum mechanics and quantum field theory (QM/QFT) accurately describe the statistical behavior and field dynamics of microscopic systems, yet remain conceptually incomplete when addressing collapse, measurement, and causality. This work proposes that QM/QFT are valid limiting cases within a broader causal framework---\textit{General Substrate Theory (GST)}---in which quantum coherence, superposition, and field propagation are constrained by a physically real, Lorentz-compatible substrate.
+{Quantum mechanics and quantum field theory (QM/QFT) accurately describe the statistical behavior and field dynamics of microscopic systems, yet remain conceptually incomplete when addressing collapse, measurement, and causality. This work proposes that QM/QFT are valid limiting cases within a broader causal framework---\textit{General
+Substrate Theory (GST)}---in which quantum coherence, superposition, and field propagation are constrained by a physically real, Lorentz-compatible substrate.
 \\
 We introduce the concept of the \textit{coherence tick}, a finite causal interval during which the substrate maintains structured waveforms as real, phase-resolved possibilities. Within this tick, standard QM/QFT formalisms---including unitary evolution, superposition, and entanglement---are fully supported. \textit{This work does not modify quantum equations, but constrains their causal applicability to coherence-supported intervals.} \textit{Collapse is not postulated}, but instead \textit{physically derived as the re-lock event} at the end of the tick: a structural commitment by the substrate that resolves all permissible phase configurations into one irreversible outcome. Measurement is thus reinterpreted not as an observer-triggered event, but as \textit{the first moment post-tick when the committed structure becomes externally accessible}.
 \\
@@ -29,7 +32,7 @@ By grounding quantum phenomena in substrate-limited coherence intervals, we unif
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %=================================================================
-\documentclass[entropy,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+\documentclass[preprints,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
 %\documentclass[preprints,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
 % For posting an early version of this manuscript as a preprint, you may use "preprints" as the journal. Changing "submit" to "accept" before posting will remove line numbers.
 
@@ -231,26 +234,23 @@ Quantum mechanics (QM) and quantum field theory (QFT) offer powerful and precise
 
 These questions arise not from flaws in the mathematical formalism, but from the absence of a clearly defined causal structure. Quantum systems evolve unitarily under the Schrödinger equation, but this evolution terminates abruptly when a measurement is made. The standard theory provides no internal mechanism for this transition. In QFT, the issue is displaced into operator algebra and vacuum excitation, but the core ambiguity remains: what physically distinguishes the domain of reversible wavefunction evolution from the moment of irreversible outcome?
 
-This work proposes that QM and QFT are not incorrect, but physically incomplete. We introduce a physically grounded coherence framework—\textit{General Substrate Theory (QSD)}—in which quantum behavior arises as a limiting case within discrete, causally permitted coherence intervals. These spans, called \textit{Causality Intervals (CI)}, define the maximum duration over which a wavefunction or field excitation may evolve coherently before requiring structural resolution. At the end of each CI lies a \textit{Collapse Boundary (CB)}, where the substrate irreversibly re-locks the system's configuration. If this resolution entails energy, tension, or waveform offload, it produces a \textit{Quantum Emission Opportunity (QEO)}—a physically grounded alternative to axiomatic measurement.
+This work proposes that QM and QFT are not incorrect, but physically incomplete. We introduce a physically grounded coherence framework—\textit{\qsdgst (\qsdgsta)}~\cite{bush-gst}—in which quantum behavior arises as a limiting case within discrete, causally permitted coherence intervals. These spans, called \textit{Causality Intervals (CI)}, define the maximum duration over which a wavefunction or field excitation may evolve coherently before requiring structural resolution. At the end of each CI lies a \textit{Collapse Boundary (CB)}, where the substrate irreversibly re-locks the system's configuration. If this resolution entails energy, tension, or waveform offload, it produces a \textit{Quantum Emission Opportunity (QEO)}—a physically grounded alternative to axiomatic measurement.
 
 This framework preserves all predictions of QM and QFT while providing a physical mechanism for collapse, emission, and entanglement. Wavefunctions, superpositions, and fields are real—but only within the CI, where coherence is supported. Collapse is not triggered by observation, but by causal exhaustion of the interval. Entanglement is not instantaneous linkage, but resonance tuning: structures formed within the same coherence envelope remain phase-compatible and may respond to serialized emissions if their tick pacing remains aligned. These emissions do not enforce collapse in the partner structure, but may stimulate a re-lock if coherence conditions permit.
 
 A key outcome of this framing is a resolution to the quantum time symmetry paradox. Within the CI, time evolution is forward and fully reversible: the system experiences \( +t \) as internal phase structure unfolds. But collapse marks the end of that frame. From the observer’s point of view, measurement accesses only the committed result—forcing any reconstruction of internal evolution to occur retrospectively in \( -t \). Time symmetry is preserved in the system, but broken at the level of observation. This distinction resolves the apparent contradiction between reversible quantum dynamics and irreversible measurement.
 
-In what follows, we define this framework and show that it not only preserves the core mathematics of quantum theory, but also anchors it in a causal structure that explains why collapse, measurement, and correlation occur as they do—without mystery, paradox, or metaphysical ambiguity. QSD reframes the quantum formalism not as a complete description of reality, but as the domain-specific language of coherence playing out within a deeper causal substrate.
-
-
+In what follows, we define this framework and show that it not only preserves the core mathematics of quantum theory, but also anchors it in a causal structure that explains why collapse, measurement, and correlation occur as they do—without mystery, paradox, or metaphysical ambiguity. \qsd (\qsda)~\cite{bush2025}, is the dynamic expression of \qsdgsta, reframes the quantum formalism not as a complete description of reality, but as the domain-specific language of coherence playing out within a deeper causal substrate.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Materials and Methods}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \qsdmethodstatement
 \\
-In support of the editorial process, generative AI tools—specifically \qsdgptname (version \qsdgptver, \qsdgptyear)—were used to assist in:
+In support of the editorial process, generative AI tools—specifically OpenAI’s ChatGPT (version GPT-4o, 2025) and ScholarGPT were used to assist in:
 \begin{itemize}
-    \item Generating illustrative figures based on the author’s conceptual framework, with iterative refinement to ensure fidelity to the substrate-based dynamics of the model,
-    \item Researching, validating, and cross-referencing related scientific concepts to improve accuracy, contextual alignment, and clarity,
-    \item Summarizing and formatting externally sourced material already selected by the author.
+    \item Generating initial illustrative figures based on the author’s conceptual framework, with iterative refinement to ensure fidelity to the substrate-based dynamics of the model,
+    \item Researching, validating, and testing against related scientific concepts to improve notation, accuracy, contextual alignment, and clarity
 \end{itemize}
 
 No original theoretical contributions were generated by the AI system; all scientific claims, hypotheses, derivations, and interpretations were authored and reviewed by the human researcher. The use of AI is disclosed in alignment with journal policy for transparency in the writing process.
@@ -675,9 +675,9 @@ Further work will formalize this relationship across curved and layered substrat
 %\subsubsection{SUB B}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\isPreprints{}{% This command is only used for ``preprints''.
+\isPreprints{}{% This command is only used for ``preprints''.
 \begin{adjustwidth}{-\extralength}{0cm}
-%} % If the paper is ``preprints'', please uncomment this parenthesis.
+} % If the paper is ``preprints'', please uncomment this parenthesis.
 %\printendnotes[custom] % Un-comment to print a list of endnotes
 
 \reftitle{References}
@@ -697,6 +697,9 @@ Further work will formalize this relationship across curved and layered substrat
 % ACS format
 \isAPAandChicago{}{%
 \begin{thebibliography}{999}
+% Reference 
+\bibitem{bush-gst}
+Bush, M. (2025). General Substrate Theory: From Substrate Conservation Dynamics to the Emergence of Inertia, Gravity, and Quantization. \textit{Preprints}, 2025070485. \url{https://doi.org/10.20944/preprints202507.0485.v1}
 % Reference 
 \bibitem{bush2025}
 Bush, M. (2025). Quantum Substrate Dynamics (QSD): A Relativistic Field Model of Emergent Mass, Inertia and Gravity. \textit{Preprints}, 2025060988. \url{https://doi.org/10.20944/preprints202506.0988.v1}
@@ -758,9 +761,11 @@ Bush, M. Planck Energy as Collapse Limit: A Structural Interpretation of $E_P$ i
 %Reviewer 3 comments and authors’ response
 %}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\PublishersNote{}
-%\isPreprints{}{% This command is only used for ``preprints''.
+
+\isPreprints{}{\PublishersNote{}}
+
+\isPreprints{}{% This command is only used for ``preprints''.
 \end{adjustwidth}
-%} % If the paper is ``preprints'', please uncomment this parenthesis.
+} % If the paper is ``preprints'', please uncomment this parenthesis.
 \end{document}
 
