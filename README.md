@@ -23,10 +23,6 @@ It was originally submitted to Preprints.org in July 2025 and declined without r
 
 ## Repository Activity
 
-> 📌 **Note:** This repository was never promoted, indexed, or shared beyond its use in the submission process.  
-> As of [today’s date], it has received **over 54 independent clone events**.  
-> This activity is unusual and suggests the work may have been circulated informally or received private interest prior to formal peer review.
-
 All terminology, structure, and core contributions—including the CI/CB/QEO model, phase-bound collapse, and time-relative reconstruction framework—were introduced here and in the accompanying QSD body of work. Continued cloning of this repo without citation does not constitute authorship or interpretation continuity.
 
 ## Figures and Diagrams
