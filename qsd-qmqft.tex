@@ -29,7 +29,7 @@ This framework preserves all predictive results of QM/QFT while offering a physi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %=================================================================
-\documentclass[entropy,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+\documentclass[preprints,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
 %\documentclass[preprints,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
 % For posting an early version of this manuscript as a preprint, you may use "preprints" as the journal. Changing "submit" to "accept" before posting will remove line numbers.
 
@@ -227,19 +227,22 @@ $^{1}$ \quad \qsdcorp; \qsdauthoremail\\
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Quantum mechanics (QM) and quantum field theory (QFT) offer powerful and precise frameworks for describing the statistical structure of microscopic systems. Their formalism has produced predictions of extraordinary accuracy and technologies of increasing sophistication. Yet persistent conceptual questions remain unresolved: What is the physical status of the wavefunction? What causes collapse, and when does it occur? Why does measurement produce irreversible outcomes if the underlying equations are time-symmetric?
+Quantum mechanics (QM) and quantum field theory (QFT) offer powerful and precise frameworks for describing the statistical structure of microscopic systems. Their formalism has produced predictions of extraordinary accuracy and technologies of increasing sophistication. Yet persistent conceptual questions remain unresolved: What is the physical status of the wavefunction? What causes collapse, and when does it occur? Why does measurement produce irreversible outcomes if the underlying equations are time-symmetric? And why do outcomes appear probabilistic if the substrate of physics is assumed to be causal?
 
 These questions arise not from flaws in the mathematical formalism, but from the absence of a clearly defined causal structure. Quantum systems evolve unitarily under the Schrödinger equation, but this evolution terminates abruptly when a measurement is made. The standard theory provides no internal mechanism for this transition. In QFT, the issue is displaced into operator algebra and vacuum excitation, but the core ambiguity remains: what physically distinguishes the domain of reversible wavefunction evolution from the moment of irreversible outcome?
 
 This work proposes that QM and QFT are not incorrect, but physically incomplete. We introduce a physically grounded coherence framework—\textit{\qsdgst (\qsdgsta)}~\cite{bush-gst}—in which quantum behavior arises as a limiting case within discrete, causally permitted coherence intervals. These spans, called \textit{Causality Intervals (CI)}, define the maximum duration over which a wavefunction or field excitation may evolve coherently before requiring structural resolution. At the end of each CI lies a \textit{Collapse Boundary (CB)}, where the substrate irreversibly re-locks the system's configuration. If this resolution entails energy, tension, or waveform offload, it produces a \textit{Quantum Emission Opportunity (QEO)}—a physically grounded alternative to axiomatic measurement.
 
-This framework preserves all predictions of QM and QFT while providing a physical mechanism for collapse, emission, and entanglement. Wavefunctions, superpositions, and fields are real—but only within the CI, where coherence is supported. Collapse is not triggered by observation, but by causal exhaustion of the interval. Entanglement is not instantaneous linkage, but resonance tuning: structures formed within the same coherence envelope remain phase-compatible and may respond to serialized emissions if their tick pacing remains aligned. These emissions do not enforce collapse in the partner structure, but may stimulate a re-lock if coherence conditions permit.
+This framework preserves all predictions of QM and QFT while providing a physical mechanism for collapse, emission, and entanglement. Wavefunctions, superpositions, and fields are real—but only within the CI, where coherence is supported. Collapse is not triggered by observation, but by causal exhaustion of the interval. Importantly, collapse outcomes are \textit{deterministic with respect to their hidden inputs}: given the full coherence configuration of a CI, the CB resolves uniquely. Yet those inputs—residual CPA fields, scalar recovery availability, inherited phase geometry—are causally inaccessible to external observers. The apparent randomness of quantum outcomes thus arises not from indeterminacy, but from epistemic limitation. The Born Rule is preserved as a statistical projection of inaccessible determinism.
+
+Entanglement is not instantaneous linkage, but resonance tuning: structures formed within the same coherence envelope remain phase-compatible and may respond to serialized emissions if their tick pacing remains aligned. These emissions do not enforce collapse in the partner structure, but may stimulate a re-lock if coherence conditions permit.
 
 A key outcome of this framing is a resolution to the quantum time symmetry paradox. Within the CI, time evolution is forward and fully reversible: the system experiences \( +t \) as internal phase structure unfolds. But collapse marks the end of that frame. From the observer’s point of view, measurement accesses only the committed result—forcing any reconstruction of internal evolution to occur retrospectively in \( -t \). Time symmetry is preserved in the system, but broken at the level of observation. This distinction resolves the apparent contradiction between reversible quantum dynamics and irreversible measurement.
 
-In what follows, we define this framework and show that it not only preserves the core mathematics of quantum theory, but also anchors it in a causal structure that explains why collapse, measurement, and correlation occur as they do—without mystery, paradox, or metaphysical ambiguity. \qsd (\qsda)~\cite{bush2025}, is the dynamic expression of \qsdgsta, reframes the quantum formalism not as a complete description of reality, but as the domain-specific language of coherence playing out within a deeper causal substrate.
+In what follows, we define this framework and show that it not only preserves the core mathematics of quantum theory, but also anchors it in a causal structure that explains why collapse, measurement, and correlation occur as they do—without mystery, paradox, or metaphysical ambiguity. \qsd (\qsda)~\cite{bush2025}, is the dynamic expression of \qsdgsta, reframing the quantum formalism not as a complete description of reality, but as the domain-specific language of coherence playing out within a deeper causal substrate.
 
 This approach does not discard prior foundational insights, but instead situates them within a broader causal framework. Decoherence theory~\cite{zurek-decoherence} has clarified how classical behavior emerges from environmental entanglement, but still leaves the origin and necessity of collapse unresolved. Dynamical collapse models such as GRW~\cite{grw-collapse} introduce spontaneous structure loss, but require additional stochastic parameters outside of quantum formalism. Time-symmetric and retrocausal interpretations~\cite{price-retrocausality,aharonov-retro} have highlighted important asymmetries in our interpretive lens, yet often rely on global consistency constraints that lack localized causal support. In contrast, the present framework preserves the mathematical structure of all these approaches, but identifies the substrate-defined coherence interval as the domain in which they apply. Each theory remains valid—within its respective slice of the causal cycle. What we offer here is not a rejection, but a structural reframing: a box around where quantum theory works exactly, and a door into what happens beyond.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -475,6 +478,33 @@ This defines a probability amplitude not as a wavefunction amplitude squared, bu
 
 
 This view resolves the tension between quantum randomness and causal structure. It reframes wavefunction collapse not as the breaking of symmetry, but as the emergence of structure from within a causally constrained and memory-saturated coherence field.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Collapse Determinacy and Apparent Randomness}
+\label{subsec:determinacy}
+
+In Quantum Substrate Dynamics, collapse is not fundamentally random. Each outcome at a Collapse Boundary (CB) is uniquely determined by the complete coherence configuration of the preceding Causality Interval (CI). Once the inputs are given, the substrate enforces a single re-lock outcome with no ambiguity. Collapse is therefore strictly deterministic at the substrate level.
+
+The key distinction lies in the inputs themselves. Each CI inherits residual CPA memory, scalar recovery availability, and phase geometry accumulated since the origin of the system. These inherited conditions define the true state space of the CI. However, they are causally inaccessible to any observer, because the internal evolution of a CI cannot be probed without becoming part of the same unresolved frame. As a result, no experiment can recover the full coherence configuration that determines collapse. 
+
+From the observer’s standpoint, collapse outcomes therefore appear probabilistic. The Born Rule is reinterpreted in this framework as the statistical shadow of inaccessible determinism: the probability distribution reflects how many viable re-lock pathways exist in the substrate’s constraint geometry, not an ontological indeterminacy in nature itself. Randomness is not fundamental—it is epistemic, arising from structural ignorance of hidden CI inputs.
+
+\begin{center}
+\fbox{%
+\begin{minipage}{0.94\textwidth}
+\textbf{Collapse Determinacy Principle (QSD).}  
+Collapse outcomes are deterministically fixed by the full coherence configuration of a Causality Interval.  
+Apparent randomness arises because the inputs to that determinism are causally inaccessible.  
+The Born Rule preserves the statistical projection of this inaccessibility while grounding it in substrate-level determinism.
+\end{minipage}
+}
+\end{center}
+
+A final implication follows. For reality to manifest as change, collapse outcomes must differ across intervals. If the CB always re-locked into the identical configuration, time would advance in the substrate but no novelty would appear in the observed world—reality would be frozen, as in the children’s game of \textit{freeze tag}. Thus, apparent randomness is not incidental; it is the structural condition that allows motion, history, and experience to emerge from an otherwise determinate substrate.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -626,7 +656,9 @@ This work presents a resolution: quantum formalism is correct, but applies only 
 
 This minimal causal cycle—CI, CB, QEO—explains quantum behavior without resorting to external triggers or metaphysical postulates. Wavefunctions are real, but temporally bounded. Collapse is not an axiom—it is a consequence of substrate exhaustion. Measurement is not a cause—it is a readout of irreversible commitment. Entanglement is not linkage—it is resonance between phase-compatible structures within shared causal bounds.
 
-Critically, this framework resolves the apparent contradiction between time-symmetric quantum evolution and irreversible measurement. From within the coherence frame, the system evolves forward in time. But from the observer’s point of view—post-collapse—reconstruction of that evolution can only occur retrospectively. Time symmetry is preserved within the CI; causal irreversibility begins at the CB. What appears paradoxical becomes a matter of frame perspective.
+A central implication of this framework is that collapse is \textit{deterministic} at the substrate level: given the complete coherence configuration of a CI, the CB resolves uniquely. Yet the inputs to that determinism—residual CPA memory, scalar recovery availability, and inherited phase geometry—are causally inaccessible while the CI evolves. For embedded observers, collapse outcomes therefore appear probabilistic. The Born Rule emerges as the statistical projection of inaccessible determinism. Apparent randomness is not fundamental—it is the condition that allows reality to manifest as change. If every collapse re-locked identically, the world would be frozen, advancing in substrate ticks but with no observable novelty. Reality itself depends on differing outcomes across intervals.
+
+This framework also resolves the apparent contradiction between time-symmetric quantum evolution and irreversible measurement. From within the coherence frame, the system evolves forward in time. But from the observer’s point of view—post-collapse—reconstruction of that evolution can only occur retrospectively. Time symmetry is preserved within the CI; causal irreversibility begins at the CB. What appears paradoxical becomes a matter of frame perspective.
 
 The explanatory power of this framework extends beyond collapse. It accounts for emission asymmetry, entanglement decay, multi-structure correlation, and coherence loss under gradient tension—all within a causal architecture grounded in finite structural permission. Quantum behavior emerges not from abstraction, but from constrained evolution within a coherence-governed substrate.
 
@@ -740,15 +772,14 @@ GR   & General Relativity \\
 \appendixstart
 \appendix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section[\appendixname~\thesection]{}
-\subsection[\appendixname~\thesubsection]{Substrate Variable Definitions and Tick Pacing}
+\section[\appendixname~\thesection]{Substrate Variable Definitions and Tick Pacing}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 This appendix provides definitions of key physical quantities used throughout the QSD framework, along with a preliminary expression relating tick pacing to local substrate gradient tension.
 
-\subsubsection{Variable Definitions}
+\subsection[\appendixname~\thesubsection]{Variable Definitions}
 
 \begin{itemize}
   \item \textbf{\( L_{\text{coh}} \)} — \textit{Coherence Support Length}  
@@ -775,7 +806,7 @@ This appendix provides definitions of key physical quantities used throughout th
 
 \end{itemize}
 
-\subsubsection{Tick Pacing and Gradient Tension (Preliminary)}
+\subsection[\appendixname~\thesubsection]{Tick Pacing and Gradient Tension (Preliminary)}
 
 In regions where the substrate experiences a gradient in coherence tension (e.g., due to mass distribution, field distortion, or phase saturation), the effective tick duration may be modulated.
 
